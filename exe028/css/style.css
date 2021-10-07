@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: brown;
+}
+
+.container {
+    background-color:#fff;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:50px;
+    
+}
+
+.container h1 {
+    padding-top: 50px;
+}
+.container p {
+    padding:20px 0;
+}
+
+.area-calculo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    width: 200px;  
+    
+}
+.area-calculo input {
+    padding: 10px;
+    margin: 10px;
+    color: #ccc;
+}
+
+button {
+    background-color: #2cb16e;
+    border: transparent;
+    color: #fff;
+    padding: 10px;
+}
+
